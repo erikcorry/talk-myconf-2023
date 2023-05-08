@@ -5,5 +5,5 @@ func main() {
 		"foo": 1,
 		"bar": 42,
 	}
-	fmt.Println(m);
+	fmt.Println(m)
 }
