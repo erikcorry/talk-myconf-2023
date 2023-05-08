@@ -1,0 +1,14 @@
+kind = REGEXP
+name = [cga]tatcccgac|[act]gcttacg
+compiler = unknown
+address = 0x7f0194b904c1
+
+0x7f0194b90567    27  83fff9               cmpl rdi,0xf9
+0x7f0194b9056a    2a  0f8d0f030000         jge 0x7f0194b9087f  <+0x33f>
+0x7f0194b90570    30  8b143e               movl rdx,[rsi+rdi*1]
+0x7f0194b90573    33  b8e8ecfdff           movl rax,0xfffdece8
+0x7f0194b90578    38  4823c2               REX.W andq rax,rdx
+0x7f0194b9057b    3b  3d60646174           cmp rax,0x74616460
+0x7f0194b90580    40  0f8406000000         jz 0x7f0194b9058c  <+0x4c>
+0x7f0194b90586    46  4883c701             REX.W addq rdi,0x1
+0x7f0194b9058a    4a  ebdb                 jmp 0x7f0194b90567  <+0x27>
