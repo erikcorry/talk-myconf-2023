@@ -1,0 +1,4 @@
+A) true, true, true, true, true, true, true, true, true, true
+B) false, false, true, false, true, true, true, false, true, true
+C) false, false, false, false, false, false, false, false, false, false
+D) true, true, true, false, false, false, false, true, true, true

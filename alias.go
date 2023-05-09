@@ -1,4 +1,5 @@
 package main
+
 import "fmt"
 
 func main() {
@@ -12,7 +13,7 @@ func DoesItAlias(length int) bool {
 	for i := 0; i < length; i++ {
 		a = append(a, i)
 	}
-	b := append(a[:], 42)
+	b := append(a[0:len(a):len(a)], 42)
 	a = append(a, 103)
-    return a[length] == b[length]
+	return a[length] == b[length]
 }
