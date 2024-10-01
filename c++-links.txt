@@ -1,0 +1,11 @@
+# Bastien proposal.
+https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2023/p2723r1.html
+
+# Proposal being adopted.
+https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p2795r5.html
+
+
+
+# Question from stackoverflow.
+https://stackoverflow.com/questions/78578924/when-is-an-erroneous-value-not-valid-for-the-objects-type
+

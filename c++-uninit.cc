@@ -3,9 +3,6 @@
 // This would mitigate or fix around 10% of security issues in security-
 // relevant code bases.
 
-// Enable zeroing of locals with:
-// -enable-trivial-auto-var-init-zero-knowing-it-will-be-removed-from-clang
-
 int main() {
   int x;
   char b[100];
