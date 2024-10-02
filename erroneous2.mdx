@@ -1,0 +1,15 @@
+
+| C++23               | P2723R1 (default-init zero)  | This proposal          |
+|---------------------|------------------------------|------------------------|
+| undefined behaviour | well-defined behaviour       | erroneous behaviour    |
+|---------------------|------------------------------|------------------------|
+| definitely a bug    | may be intentionally using   | definitely a bug       |
+|                     | 0, or may be a bug           |                        |
+|---------------------|------------------------------|------------------------|
+| common compilers    | conforming compilers         | conforming compilers   |
+| allow rejecting     | cannot diagnose anything     | generally have to      |
+| (e.g. -Werror),     |                              | accept, but can        |
+| this selects a      |                              | reject as QoI          |
+| non-conforming      |                              | in non-conforming      |
+| compiler mode       |                              | modes                  |
+

@@ -1,0 +1,17 @@
+# A new hope
+
+## Erroneous behaviour for uninitialized reads
+
+p2795r5 introduces a new concept in the C++ standard: Erroneous behaviour.
+
+Default-initialization of an automatic-storage object initializes the object
+with a **fixed value defined by the implementation**; however, **reading that
+value is a conceptual error**. Implementations are **allowed and encouraged to
+diagnose this error**, but they are also allowed to ignore the error and
+**treat the read as valid**.
+
+Reading an uninitialized value is never intended and a definitive sign that the
+code is not written correctly and needs to be fixed. At the same time, we do
+give this code well-defined behaviour, and if the situation has not been
+diagnosed, we want the program to be stable and predictable. This is what we
+call *erroneous behaviour*.
