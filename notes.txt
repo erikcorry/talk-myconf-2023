@@ -1,0 +1,16 @@
+064
+Fix the go slice to have explicit capacity and length.
+Top half is term with two different go run alias.go | fmt commands.
+
+065
+Exit editor.  Commands are just `vim alias.go`.
+clear
+vim c++-undefined.mdx
+
+066
+Exit editor. Commands are `vim c++-undefined.mdx`.
+vim c++-bounds.cc
+Extra overflow check is not there.
+
+067
+Copy overflow check line from higher up.
